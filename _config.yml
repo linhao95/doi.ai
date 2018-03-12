@@ -2,7 +2,7 @@
 title: doi.ai
 description: Document Object Index of the papers of the Artificial Intelligence.
 email: support
-baseurl: /
+baseurl: 
 url:  # the base hostname & protocol for your site
 #favicon
 favicon: favicon.png
