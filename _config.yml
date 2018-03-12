@@ -5,7 +5,8 @@ email: support
 baseurl: /
 url:  # the base hostname & protocol for your site
 #favicon
-favicon: /favicon.png
+favicon: favicon.png
+
 
 #feed
 feedburner_username: 
