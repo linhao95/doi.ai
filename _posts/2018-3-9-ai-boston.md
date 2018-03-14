@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 波士顿动力的机器人会开门了，中国尚需奋力追赶
 categories: AI
 description: 波士顿动力的机器人会开门了，中国尚需奋力追赶
@@ -9,6 +9,9 @@ keywords: AI, gilgamesh,
 本文主要内容：去年的时候，俄罗斯 Promobot 公司的机器人因为屡次逃跑而成为网红，并受到了现任俄罗斯总统普京的接见。
 
 <!-- more -->
+
+
+
 
 ## 主要内容
 

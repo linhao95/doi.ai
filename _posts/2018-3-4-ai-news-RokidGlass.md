@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 黑科技AR眼镜——Rokid Glasss
 categories: AI
 description: 黑科技AR眼镜——Rokid Glass
@@ -9,6 +9,9 @@ keywords: AI, Artificial Intelligence,gilgamesh,Rokid Glass
 本文主要内容：本文主要介绍了黑科技AR眼镜-Rokid Glass的研发背景，同时对此眼镜的使用场景进行简单的分析，并附有官方的宣传视频。
 
 <!-- more -->
+
+
+
 
 ## 内容简介
 ![Rokid Glass 外观](/images/AI/rokidglass-1.png)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 结合主动学习与迁移学习：让医学图像标注工作量减少一半
 categories: AI
 description: 结合主动学习与迁移学习：让医学图像标注工作量减少一半
@@ -9,6 +9,9 @@ keywords: AI, google, gilgamesh, Jetson TX2, google glasss
 本文主要内容：和普通图像的标注不一样，生物医学图像的标注需要有专业知识和技能的人来做，因此难以获得大型的有标注数据集供卷积神经网络学习。近日，IEEE 一篇论文提出可以将主动学习和迁移学习结合起来降低标注任务的工作量，实验结果也证明了这种方法的有效性。
 
 <!-- more -->
+
+
+
 
 ## 文章内容
 

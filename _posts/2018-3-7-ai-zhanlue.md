@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 全球人工智能专利分布战情图
 categories: AI
 description: 全球人工智能专利分布战情图
@@ -9,6 +9,9 @@ keywords: AI, gilgamesh,
 本文主要内容：全球人工智能专利分布战情图
 
 <!-- more -->
+
+
+
 
 ## 文章内容
 

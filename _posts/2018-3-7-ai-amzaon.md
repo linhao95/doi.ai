@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 继苹果 Google 之后，AI 芯片领域迎来另一家世界级巨头
 categories: AI
 description: 继苹果 Google 之后，AI 芯片领域迎来另一家世界级巨头
@@ -10,6 +10,9 @@ keywords: AI, gilgamesh,
 现在，这个行业又多了一个巨头：亚马逊。
 
 <!-- more -->
+
+
+
 
 ## 文章内容
 

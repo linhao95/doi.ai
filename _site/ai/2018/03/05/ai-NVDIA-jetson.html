@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" type="text/css" 
+      href="/assets/css/straybirds.css" media="screen" />
+    <link rel="stylesheet" type="text/css" 
+      href="/assets/css/pygments.css" media="screen" />
+
+    <!-- MathJax Section Start -->
+
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script>
+        MathJax.Hub.Config({
+              tex2jax: {
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+              }
+        });
+        MathJax.Hub.Queue(function() {
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i=0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+    <!-- MathJax Section End -->
+
+    <!-- Google Analytics Start-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48100787-1', 'github.com/Greysh/doi.ai');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Google Analytics End -->
+
+    <title>NVIDIA发布Jetson TX2平台：6核Tegra处理器，功耗低于7.5W</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="container">
+          <h1>
+              <a href="/" title="Home Page"> Doi.ai </a>
+          <span class="github-src">
+            <a href ="https://github.com/Greysh/doi.ai"
+               target="_blank"
+               title="Fork me on GitHub">
+              <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="">
+            </a>
+          </span>
+          </h1>
+        </div>
+      </header>
+
+      <aside id="left-side">
+        <h2> 分类 </h2>
+  <ul class="category-list">
+      
+            
+                <li>
+                <a href="/categories/人工智能"> 人工智能  </a>
+                </li>
+            
+      
+            
+                <li>
+                <a href="/categories/AI"> AI  </a>
+                </li>
+            
+      
+  </ul>
+
+      </aside>
+
+      <aside id="right-side">
+        <h2> 归档 </h2>
+  <ul class="archive-list">
+    
+    
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+            
+            <li>
+                <a href="/2018/03">
+                    2018-03 
+                </a>
+            </li>
+
+        
+        
+    
+  </ul>
+
+      </aside>
+
+      <article>
+
+<p>本文主要内容：NVIDIA自己的Tegra处理器虽然远离了智能手机、平板等消费级市场，但在车载电子、机顶盒以及嵌入式等领域依然能找到自己的位置。在嵌入式开发市场，NVIDIA之前已经推出过Jetson K1及Jestson X1两代产品，今天他们又推出了新一代的Jetson X2开发平台，号称是嵌入式领域的AI超级计算机，使用的是代号Parker的Tegra处理器，6核CPU架构，256核Pascal架构GPU核心，整体模块功耗低于7.5W，售价399美元。</p>
+
+<!-- more -->
+
+<h2 id="文章简介">文章简介</h2>
+<p>NVIDIA自己的Tegra处理器虽然远离了智能手机、平板等消费级市场，但在车载电子、机顶盒以及嵌入式等领域依然能找到自己的位置。在嵌入式开发市场，NVIDIA之前已经推出过Jetson K1及Jestson X1两代产品，今天他们又推出了新一代的Jetson X2开发平台，号称是嵌入式领域的AI超级计算机，使用的是代号Parker的Tegra处理器，6核CPU架构，256核Pascal架构GPU核心，整体模块功耗低于7.5W，售价399美元。</p>
+
+<p><img src="/images/AI/course-nvdia-JetsonTX2_3.jpg" alt="course-nvdia-JetsonTX2_3" /></p>
+
+<p>NVIDIA的Jetson开发板主要面向嵌入式市场，Jetson X2则更强调AI智能运算，可以用来打造智能机器人、无人机以及智能城市中使用的智能摄像头，官方表示它具备极强的AI运算能力——这点其实并不意外，因为Jetson X2使用的是NVIDIA代号arker的Tegra处理器，与Drive PX2车载超算用的是同一款，</p>
+
+<p><a href="http://www.expreview.com/52869.html">查看原文请点击（文章出自于expreview）</a></p>
+
+
+
+      </article>
+
+      <div class="comments">
+        
+      </div>
+
+
+      <footer>
+        <!-- Copyright (c) minixalpha 2014 -->
+      </footer>
+
+    </div>
+  </body>
+</html>

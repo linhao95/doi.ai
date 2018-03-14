@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" type="text/css" 
+      href="/assets/css/straybirds.css" media="screen" />
+    <link rel="stylesheet" type="text/css" 
+      href="/assets/css/pygments.css" media="screen" />
+
+    <!-- MathJax Section Start -->
+
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script>
+        MathJax.Hub.Config({
+              tex2jax: {
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+              }
+        });
+        MathJax.Hub.Queue(function() {
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i=0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+    <!-- MathJax Section End -->
+
+    <!-- Google Analytics Start-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48100787-1', 'github.com/Greysh/doi.ai');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Google Analytics End -->
+
+    <title>黑科技AR眼镜——Rokid Glasss</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="container">
+          <h1>
+              <a href="/" title="Home Page"> Doi.ai </a>
+          <span class="github-src">
+            <a href ="https://github.com/Greysh/doi.ai"
+               target="_blank"
+               title="Fork me on GitHub">
+              <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="">
+            </a>
+          </span>
+          </h1>
+        </div>
+      </header>
+
+      <aside id="left-side">
+        <h2> 分类 </h2>
+  <ul class="category-list">
+      
+            
+                <li>
+                <a href="/categories/人工智能"> 人工智能  </a>
+                </li>
+            
+      
+            
+                <li>
+                <a href="/categories/AI"> AI  </a>
+                </li>
+            
+      
+  </ul>
+
+      </aside>
+
+      <aside id="right-side">
+        <h2> 归档 </h2>
+  <ul class="archive-list">
+    
+    
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+    
+        
+        
+        
+        
+            
+            <li>
+                <a href="/2018/03">
+                    2018-03 
+                </a>
+            </li>
+
+        
+        
+    
+  </ul>
+
+      </aside>
+
+      <article>
+
+<p>本文主要内容：本文主要介绍了黑科技AR眼镜-Rokid Glass的研发背景，同时对此眼镜的使用场景进行简单的分析，并附有官方的宣传视频。</p>
+
+<!-- more -->
+
+<h2 id="内容简介">内容简介</h2>
+<p><img src="/images/AI/rokidglass-1.png" alt="Rokid Glass 外观" /></p>
+
+<p>AR技术是最近几年很火的技术，很多公司都已经开始着手研发基于AR技术的智能眼镜，其中不仅包括科技界的大牌公司，例如苹果、谷歌、微软等，不过至今为止，AR技术还是一块极其难啃的骨头，很多公司制作的AR眼镜产品技术尚未成熟，不过，最近，一家专注于人工智能的中国科技公司 Rokid ，研发出了一款可能是全球第一款达到消费级别的黑科技AR眼镜——Rokid Glass，下面来了解一下这款产品的详细信息吧。</p>
+
+<p><a href="http://www.sohu.com/a/210923238_295623">【文章】全球第一款黑科技AR眼镜（文章来自于搜狐）</a></p>
+
+<p><a href="http://itech.ifeng.com/44842658/news.shtml">【文章】Rokid公布AR眼镜Rokid Glass支持手势识别等功能（文章来自于凤凰网）</a></p>
+
+<p><a href="https://youtu.be/r55yuyjgYmk">【视频】官方宣传视频（来自于youtube）</a></p>
+
+<p><a href="https://v.qq.com/x/page/d05212obf12.html">【视频】官方宣传视频（来自于腾讯视频）</a></p>
+
+<p><a href="https://youtu.be/vRB1cHcca18">【视频】2018 CES 若琪Rokid AR眼镜原型机演示视频（来自于youtube）</a></p>
+
+
+
+      </article>
+
+      <div class="comments">
+        
+      </div>
+
+
+      <footer>
+        <!-- Copyright (c) minixalpha 2014 -->
+      </footer>
+
+    </div>
+  </body>
+</html>

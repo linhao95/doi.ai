@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 我国天基互联网卫星今年将首发，未来随时随地可以上网
 categories: AI
 description: 我国天基互联网卫星今年将首发，未来随时随地可以上网
@@ -9,6 +9,9 @@ keywords: course, gilgamesh, AI,
 本文主要内容：记者从航天科工集团获悉，我国布局156颗小卫星组成的天基互联网系统今年将进行首颗卫星发射。未来组网后将使人们能够在世界任何角落自由接入宽带互联网。
 
 <!-- more -->
+
+
+
 
 ## 主要内容
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 英特尔发力可穿戴，将为下代 Google Glass 提供芯片
 categories: AI
 description: 英特尔发力可穿戴，将为下代 Google Glass 提供芯片
@@ -9,6 +9,9 @@ keywords: AI, google, gilgamesh, Jetson TX2, google glasss
 本文主要内容：《华尔街日报》援引知情人士消息称，英特尔将取代德州仪器，成为 Google 下一代眼镜产品的芯片提供商。报道称，这是英特尔再次发力可穿戴市场的的重要举措。
 
 <!-- more -->
+
+
+
 
 ## 文章内容
 

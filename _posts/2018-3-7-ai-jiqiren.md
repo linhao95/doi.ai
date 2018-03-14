@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 美华裔师生带头研究“机器人轮椅” 获发明基金
 categories: AI
 description: 美华裔师生带头研究“机器人轮椅” 获发明基金
@@ -9,6 +9,10 @@ keywords: AI, gilgamesh,
 本文主要内容：中新网3月6日电 据美国《世界日报》报道，美国亚城东郊琼斯溪(Johns Creek)市恰塔呼其(Chattahoochee)高中九名生组成的协作团队(Synergy Team)，以“全地形无障碍运输机器人轮椅”赢得麻省理工学院莱梅尔逊发明团队项目(Lemelson-MIT InvenTeam initiative)，获拨款9000美元赞助他们研究制作ATAT轮椅。
 
 <!-- more -->
+
+
+
+
 
 ## 文章内容
 

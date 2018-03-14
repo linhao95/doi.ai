@@ -1,45 +1,9 @@
-# Site settings
-title: doi.ai
-description: Document Object Index of the papers of the Artificial Intelligence.
-email: support
-baseurl: 
-url:  # the base hostname & protocol for your site
-#favicon
-favicon: favicon.png
-
-
-#feed
-feedburner_username: 
-#twitter
-twitter_username: 
-github_username:  Greysh
-
-#linkedin
-linkedin_username: 
-
-#google analytics
-google_analytics_id : 
-#gplus
-gplus_username: 
-
-#fb_username
-fb_username: 
-
-#permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
-# Build settings
-markdown: kramdown
-
-#Disqus configuration
-disqus_short_name: 
-disqus_show_comment_count: false
-
-#Can be used for multiple author blogs ! Add name to post For more visit the sample
-authors:
-  pranavrajs:
-    display_name: Greysh
-    email: support@greysh.com
-    fb: 
-    linkedin: 
-    twitter:
-    github: Greysh
+baseurl: ""
+markdown: redcarpet
+redcarpet:
+    extensions: [tables]
+safe: false
+pygments: true
+excerpt_separator: "\n\n\n"
+paginate: 5
+sitemapurl: "https://github.com/Greysh/doi.ai"

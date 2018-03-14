@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 万钢谈"人工智能":应对可能对伦理和隐私的挑战
 date:   2018-03-13
 categories: AI
@@ -12,6 +12,10 @@ comments: true
 本文主要内容：本文是对万钢的对话访谈记录，对话中，万钢先生表达了对待人工智能的看法与太多。
 
 <!-- more -->
+
+
+
+
 
 ## 主要内容
 

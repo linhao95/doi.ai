@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  真是不太懂你们日本人 造4D VR让美少女喂你吃糖
 categories: AI
 description:  真是不太懂你们日本人 造4D VR让美少女喂你吃糖
@@ -9,6 +9,9 @@ keywords: AI, 4D, gilgamesh
 文章主要内容：被誉为“千年一遇美少女”日本女星桥本环奈，以清纯可爱的形象获得不少宅男的关注，而现在最新的科技让普通人有机会和心目中的“女神”有更亲密的互动了。
 
 <!-- more -->
+
+
+
 
 ## 文章简介
 
