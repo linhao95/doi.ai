@@ -2,7 +2,7 @@
 layout:     post
 title:      一个优雅的开源学术论文书写工具
 subtitle:   ""
-date:       2018-03-16
+date:       2018-03-17
 author:     " "
 header-img: "img/home-bg-o.jpg"
 tags:
