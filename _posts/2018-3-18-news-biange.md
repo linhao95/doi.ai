@@ -1,9 +1,7 @@
 ---
 layout:     post
 title:     变革尚未成功：深度强化学习研究的短期悲观与长期乐观
-subtitle:   ""
 date:       2018-03-18
-author:     " "
 header-img: "img/home-bg-o.jpg"
 tags:
     - 新闻
